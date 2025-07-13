@@ -12,10 +12,12 @@ resource "azurerm_resource_group" "rg4" {
 }
 
 resource "azurerm_resource_group" "rg2" {
-  name     = "rg1"
+  name     = "rg2"
   location = "central india"
 
 }
-resource "azurerm_resource_group" "rg2" {
+resource "azurerm_resource_group" "rg3" {
   name     = "rg3"
+  location = "east us"
+}
 
