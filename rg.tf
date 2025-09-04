@@ -6,7 +6,7 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "93358ad1-cda0-434e-8a1b-0f6ccc5bfcc0"
+  subscription_id = "<your subscription id >"
   
 }
 resource "azurerm_resource_group" "classic1" {
@@ -15,6 +15,7 @@ resource "azurerm_resource_group" "classic1" {
 
 }
 # nitesh added 1 more line
+# sample lab for git conflict 
 resource "azurerm_resource_group" "classic2" {
   name     = "classic2"
 
